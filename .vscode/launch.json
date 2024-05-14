@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "mingwPath": "D:\\EmbeddedProject\\Software_tools\\mingw64\\bin",
+            }
+        }
+    ]
+}
