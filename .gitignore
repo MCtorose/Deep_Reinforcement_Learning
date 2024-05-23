@@ -1,6 +1,5 @@
 build/
 doc/
 extern/
-model_save/
 __pycache__
 .idea/

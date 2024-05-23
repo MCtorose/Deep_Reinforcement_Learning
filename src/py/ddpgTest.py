@@ -13,7 +13,7 @@ MAX_STEPS = 100
 
 # 加载模型
 actor = Actor(STATE_DIM, ACTION_DIM).to(device)
-actor.load_state_dict(torch.load('actor.pth'))
+actor.load_state_dict(torch.load(r'E:\Desktop\drl\model_save\actor.pth'))
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
